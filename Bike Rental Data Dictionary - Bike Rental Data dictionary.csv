@@ -1,0 +1,15 @@
+Feature Name,Data Type,Description,PK (Yes/No)
+Date,object,The date of the observation in YYYY-MM-DD format.,No
+RentedBikeCount,int64,The target variable. The number of bikes rented per hour.,No
+Hour,int64,The hour of the day (0-23).,No
+Temperature,float64,The temperature in Celsius.,No
+Humidity,int64,The relative humidity as a percentage (%).,No
+WindSpeed,float64,The wind speed in meters per second (m/s).,No
+Visibility,int64,The visibility in meters (m).,No
+DewPointTemperature,float64,The dew point temperature in Celsius.,No
+SolarRadiation,float64,The solar radiation in Megajoules per square meter (MJ/m2).,No
+Rainfall,float64,The amount of rain in millimeters (mm).,No
+Snowfall,float64,The amount of snow in centimeters (cm).,No
+Seasons,object,"The season of the year ('Winter', 'Spring', 'Summer', 'Autumn').",No
+Holiday,object,Whether the day is a public holiday ('Holiday') or not ('No Holiday').,No
+FunctioningDay,object,Whether the bike service was operational ('Yes') or not ('No').,No
